@@ -1,0 +1,9 @@
+C:\Code\AngelCalculation\AngelCalculation\bin\Debug\AngelCalculation.exe.config
+C:\Code\AngelCalculation\AngelCalculation\obj\Debug\AngelCalculation.csprojResolveAssemblyReference.cache
+C:\Code\AngelCalculation\AngelCalculation\obj\Debug\AngelCalculation.Form1.resources
+C:\Code\AngelCalculation\AngelCalculation\obj\Debug\AngelCalculation.Properties.Resources.resources
+C:\Code\AngelCalculation\AngelCalculation\obj\Debug\AngelCalculation.csproj.GenerateResource.Cache
+C:\Code\AngelCalculation\AngelCalculation\bin\Debug\AngelCalculation.exe
+C:\Code\AngelCalculation\AngelCalculation\bin\Debug\AngelCalculation.pdb
+C:\Code\AngelCalculation\AngelCalculation\obj\Debug\AngelCalculation.exe
+C:\Code\AngelCalculation\AngelCalculation\obj\Debug\AngelCalculation.pdb
