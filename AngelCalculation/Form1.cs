@@ -16,7 +16,6 @@ namespace AngelCalculation
             InitializeComponent();
 
             pbCanvas.BackColor = Color.White;
-            // Connect the Paint event of the PictureBox to the event handler method.
             pbCanvas.Paint += pbCanvas_Paint;
             center = new Point(pbCanvas.Width/2, pbCanvas.Height/2);
             endPoint = center;
@@ -29,10 +28,7 @@ namespace AngelCalculation
         void pbCanvas_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
-
             g.DrawRectangle(Pens.Black, center.X, center.Y, 1 , 1);
-
-            // Draw a line in the PictureBox.
             g.DrawLine(linePen, center, endPoint);
         }
 
@@ -57,7 +53,7 @@ namespace AngelCalculation
             double xAngle = sinAngle;
             double yAngle = cosAngle;
 
-            double speed = 100;
+            double speed = 100; // in this case the distance to the target point
 
             return new Point((int)(center.X + (speed * xAngle)), (int)(center.Y + (speed * yAngle)));
         }
@@ -66,20 +62,5 @@ namespace AngelCalculation
             int degrees = random.Next(lowerBound, upperBound);
             return GetAngledPoint(degrees);
         }
-
-
-        /*
-         * 	Random r = new Random();
-	double degrees = r.Next(-60, 60);
-	double angle    = Math.PI * degrees / 180.0;
-    double sinAngle = Math.Sin(angle);
-    double cosAngle = Math.Cos(angle);
-	
-	double x = sinAngle;
-	double y = cosAngle;
-	
-	Console.WriteLine(x);
-	Console.WriteLine(y);
-         * */
     }
 }
